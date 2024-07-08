@@ -9,14 +9,11 @@
 </head>
 
 <body>
-
     <header>
         <!--Header includes - initials, nav bar and social icon and is to be displayed side left hidden in mobile view -->
-
         <div class="initials-box"><!--Initials in top left corner of mock-up-->
             <p class="initials">Km</p>
         </div>
-
         <nav><!--Navigation Menu - Hide in mobile viewport have header on left of viewport when larger-->
             <ul>
                 <li><a href="#">About Me</a></li>
@@ -25,45 +22,36 @@
                 <li><a href="#">SCS Scheme</a></li>
             </ul>
         </nav>
-
         <div class="btn-contact">
             <!--Contact me button - Made separate from the nav so that i can style it a little easier later-->
             <a href="#">Contact Me</a>
         </div>
-
         <div class="social-icns-box">
             <!--Social Icons sections - improve socials before linking to look more professional-->
-
             <div class="icn-box">
                 <a href="#">
                     <span class="icn-fb"></span>
                 </a>
             </div>
-
             <div class="icn-box">
                 <a href="#">
                     <span class="icn-insta"></span>
                 </a>
             </div>
-
             <div class="icn-box">
                 <a href="#">
                     <span class="icn-x"></span>
                 </a>
             </div>
-
             <div class="icn-box">
                 <a href="#">
                     <span class="icn-linkin"></span>
                 </a>
             </div>
-
         </div><!--social icons end div-->
     </header>
-
     <main>
         <div class="page-wrap">
-
             <div class="hero"><!--Hero image and heading text for the home page-->
                 <img src="#" alt="describe image">
                 <h1 class="main-heading">My Name Is Kurtis March</h1>
@@ -73,36 +61,138 @@
                     <span class="icn-dbl-arrow-down"></span>
                 </p>
             </div>
-
             <div class="project-card-box">
                 <!--TODO Add more project place holders - Project cards with title and view more link -->
-
                 <div class="project-card">
-                    <img src="#" alt="image of project">
+                    <div class="img-box">
+                        <img src="#" alt="image of project" class="project-img">
+                    </div>
                     <h4 class="project-name">Project 1</h4>
                     <p class="project-link">
-                        <a>
+                        <a href="#">
                             View More
                             <span class="icn-dbl-arrow-right"></span>
                         </a>
                     </p>
                 </div>
-
+                <div class="project-card">
+                    <div class="img-box">
+                        <img src="#" alt="image of project" class="project-img">
+                    </div>
+                    <h4 class="project-name">Project 2</h4>
+                    <p class="project-link">
+                        <a href="#">
+                            View More
+                            <span class="icn-dbl-arrow-right"></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="project-card">
+                    <div class="img-box">
+                        <img src="#" alt="image of project" class="project-img">
+                    </div>
+                    <h4 class="project-name">Project 3</h4>
+                    <p class="project-link">
+                        <a href="#">
+                            View More
+                            <span class="icn-dbl-arrow-right"></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="project-card">
+                    <div class="img-box">
+                        <img src="#" alt="image of project" class="project-img">
+                    </div>
+                    <h4 class="project-name">Project 4</h4>
+                    <p class="project-link">
+                        <a href="#">
+                            View More
+                            <span class="icn-dbl-arrow-right"></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="project-card">
+                    <div class="img-box">
+                        <img src="#" alt="image of project" class="project-img">
+                    </div>
+                    <h4 class="project-name">Project 5</h4>
+                    <p class="project-link">
+                        <a href="#">
+                            View More
+                            <span class="icn-dbl-arrow-right"></span>
+                        </a>
+                    </p>
+                </div>
+                <div class="project-card">
+                    <div class="img-box">
+                        <img src="#" alt="image of project" class="project-img">
+                    </div>
+                    <h4 class="project-name">Project 6</h4>
+                    <p class="project-link">
+                        <a href="#">
+                            View More
+                            <span class="icn-dbl-arrow-right"></span>
+                        </a>
+                    </p>
+                </div>
             </div><!--Project card box end div-->
-
             <div class="contact-sect-box"><!--contact section - including get in touch info and  contact form-->
                 <div class="get-in-touch">
                     <h3 class="sect-heading">Get In Touch</h3>
+                    <!--TODO - ask what to put here-->
                     <p>
                         Ethical poutine 8-bit, banh mi mlkshk bushwick locavore anim venmo pariatur chillwave hashtag
                         DIY freegan. Austin lomo
                         tumeric jean shorts.
                     </p>
+                    <address class="phn-number">
+                        <a href="tel:+4412345678912">012345678912</a>
+                    </address>
+                    <address class="email">
+                        <a href="mailto:kurtis.march@netmatters-scs.com"
+                            target="_blank">kurtis.march@netmatters-scs.com</a>
+                    </address>
+                    <p>
+                        Ethical poutine 8-bit, banh mi mlkshk bushwick locavore anim venmo pariatur chillwave hashtag
+                        DIY freegan. Austin lomo
+                        tumeric jean shorts. banh mi mlkshk bushwick locavore anim venmo pariatur chillwave hashtag
+                        DIY freegan.
+                    </p>
+                </div><!--get in touch end div-->
+                <div class="contact-frm-box">
+                    <form action="#" method="post" name="contact-form" id="contact-form">
+                        <label for="user-forename" class="inpt inpt-fname">
+                            <input id="user-forename" type="text" required placeholder="First Name*">
+                        </label>
+                        <label for="user-surname" class="inpt inpt-sname">
+                            <input id="user-surname" type="text" required placeholder="Last Name*">
+                        </label>
+                        <label for="user-email" class="inpt inpt-email">
+                            <input id="user-email" type="email" required placeholder="Email Address*">
+                        </label>
+                        <label for="subject" class="inpt inpt-subject">
+                            <input id="subject" name="subject" type="text" placeholder="Subject...">
+                        </label>
+                        <label for="message" class="inpt inpt-msg">
+                            <textarea id="message" name="message" placeholder="Message"></textarea>
+                        </label>
+                    </form>
+                    <!--Submit button - didn't include inside form for easier styling -->
+                    <button type="submit" id="submit" name="submit" form="contact-form">Submit</button>
+                </div><!--contact form box end div-->
+            </div><!--contact section box end div-->
+            <footer><!--Contains back to top button might add something else later-->
+                <div class="to-top-btn">
+                    <p>
+                        <a>
+                            <span class="icn-dbl-arrow-up"></span>
+                            Back To Top
+                        </a>
+                    </p>
                 </div>
-            </div><!--get in touch end div-->
+            </footer>
         </div><!--Page wrap end div-->
     </main>
-
 </body>
 
 </html>

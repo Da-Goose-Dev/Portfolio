@@ -10,16 +10,14 @@
 
 <body>
 
-    <!--Header includes - initials, nav bar and social icon and is to be displayed side left hidden in mobile view -->
     <header>
+        <!--Header includes - initials, nav bar and social icon and is to be displayed side left hidden in mobile view -->
 
-        <!--Initials in top left corner of mock-up-->
-        <div class="initials-box">
-            <h2 class="initials">KM</h2>
+        <div class="initials-box"><!--Initials in top left corner of mock-up-->
+            <p class="initials">Km</p>
         </div>
 
-        <!--Navigation Menu - Hide in mobile viewport have header on left of viewport when larger-->
-        <nav>
+        <nav><!--Navigation Menu - Hide in mobile viewport have header on left of viewport when larger-->
             <ul>
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">My Portfolio</a></li>
@@ -28,49 +26,81 @@
             </ul>
         </nav>
 
-        <!--Contact me - Made separate from the nav so that i can style it a little easier later-->
-        <div id="contact-btn">
+        <div class="btn-contact">
+            <!--Contact me button - Made separate from the nav so that i can style it a little easier later-->
             <a href="#">Contact Me</a>
         </div>
 
-        <!--FIXME Social Icons - Currently not displaying but i will fix when styling-->
-        <div class="icn-box">
-            <a href="#">
-                <span class="icn-fb"></span>
-            </a>
-        </div>
-        <div class="icn-box">
-            <a href="#">
-                <span class="icn-insta"></span>
-            </a>
-        </div>
-        <div class="icn-box">
-            <a href="#">
-                <span class="icn-x"></span>
-            </a>
-        </div>
-        <div class="icn-box">
-            <a href="#">
-                <span class="icn-linkin"></span>
-            </a>
-        </div>
+        <div class="social-icns-box">
+            <!--Social Icons sections - improve socials before linking to look more professional-->
 
+            <div class="icn-box">
+                <a href="#">
+                    <span class="icn-fb"></span>
+                </a>
+            </div>
+
+            <div class="icn-box">
+                <a href="#">
+                    <span class="icn-insta"></span>
+                </a>
+            </div>
+
+            <div class="icn-box">
+                <a href="#">
+                    <span class="icn-x"></span>
+                </a>
+            </div>
+
+            <div class="icn-box">
+                <a href="#">
+                    <span class="icn-linkin"></span>
+                </a>
+            </div>
+
+        </div><!--social icons end div-->
     </header>
 
     <main>
-
         <div class="page-wrap">
 
-            <div class="hero">
+            <div class="hero"><!--Hero image and heading text for the home page-->
                 <img src="#" alt="describe image">
-                <h1>My Name Is Kurtis March</h1>
-                <h2>I Am A Web Developer!</h2>
-                <p>Scroll Down</p>
-                <span class="icn-dbl-arrow-down"></span>
+                <h1 class="main-heading">My Name Is Kurtis March</h1>
+                <h2 class="sub-heading">I Am A Web Developer!</h2>
+                <p>
+                    Scroll Down
+                    <span class="icn-dbl-arrow-down"></span>
+                </p>
             </div>
 
-        </div>
+            <div class="project-card-box">
+                <!--TODO Add more project place holders - Project cards with title and view more link -->
 
+                <div class="project-card">
+                    <img src="#" alt="image of project">
+                    <h4 class="project-name">Project 1</h4>
+                    <p class="project-link">
+                        <a>
+                            View More
+                            <span class="icn-dbl-arrow-right"></span>
+                        </a>
+                    </p>
+                </div>
+
+            </div><!--Project card box end div-->
+
+            <div class="contact-sect-box"><!--contact section - including get in touch info and  contact form-->
+                <div class="get-in-touch">
+                    <h3 class="sect-heading">Get In Touch</h3>
+                    <p>
+                        Ethical poutine 8-bit, banh mi mlkshk bushwick locavore anim venmo pariatur chillwave hashtag
+                        DIY freegan. Austin lomo
+                        tumeric jean shorts.
+                    </p>
+                </div>
+            </div><!--get in touch end div-->
+        </div><!--Page wrap end div-->
     </main>
 
 </body>

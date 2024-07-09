@@ -20,27 +20,33 @@
                 </a>
             </p>
         </div>
-
-        <nav><!--Navigation Menu - Hide in mobile viewport have header on left of viewport when larger-->
+        <div class="off-screen-menu off-screen-menu.active">
             <ul>
                 <!--TODO - Link up the menu items
-                About Me to the About Me page
-                My Portfolio to the Portfolio section on the homepage
-                Coding Examples to the Coding Examples page
-                SCS Scheme to the SCS Scheme page
-                Contact Me to the Contact Form on the homepage-->
+                            About Me to the About Me page
+                            My Portfolio to the Portfolio section on the homepage
+                            Coding Examples to the Coding Examples page
+                            SCS Scheme to the SCS Scheme page
+                            Contact Me to the Contact Form on the homepage-->
                 <li><a href="#">About Me</a></li>
                 <li><a href="#">My Portfolio</a></li>
                 <li><a href="#">Code Examples</a></li>
                 <li><a href="#">SCS Scheme</a></li>
             </ul>
-        </nav>
-
-        <div class="btn-contact">
-            <!--Contact me button - Made separate from the nav so that i can style it a little easier later - added a mail to link to open a new email, fill the subject line with "Hi There!"" and the body with "I'm contacting you regarding"-->
-            <a href="mailto:kurtis.march@netmatters-scs.com?subject=Hi%20There!&body=Hello,%0D%0AI'm%20contacting%20you%20regarding"
-                target="_blank">Contact Me</a>
+            <div class="btn-contact">
+                <!--Contact me button - Made separate from the nav so that i can style it a little easier later - added a mail to link to open a new email, fill the subject line with "Hi There!"" and the body with "I'm contacting you regarding"-->
+                <a href="mailto:kurtis.march@netmatters-scs.com?subject=Hi%20There!&body=Hello,%0D%0AI'm%20contacting%20you%20regarding"
+                    target="_blank">Contact Me</a>
+            </div>
         </div>
+        <nav><!--Navigation Menu - Hide in mobile viewport have header on left of viewport when larger-->
+            <div class="ham-menu ham-menu.active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <script src="burgermenu.js"></script>
 
         <div class="social-icns-box">
             <!--Social Icons sections - improve socials before linking to look more professional-->

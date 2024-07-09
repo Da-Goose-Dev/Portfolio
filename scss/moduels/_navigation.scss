@@ -13,15 +13,22 @@
   text-align: center;
   font-size: 3rem;
   transition: 0.3s ease;
+  z-index: 1;
   &.active {
     right: 0;
   }
 }
-
+.initials {
+  display: none;
+}
 nav {
+  position: fixed;
+  top: 0;
+  right: 0;
   padding: 1rem;
   display: flex;
   background-color: olivedrab;
+  z-index: 2;
 }
 
 .ham-menu {

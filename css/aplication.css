@@ -317,6 +317,11 @@ body,
 html {
   height: 100%;
   background-color: #3c4935;
+  color: #adad85;
+}
+
+a {
+  text-decoration: none;
   color: #fff;
 }
 
@@ -419,7 +424,7 @@ nav {
   text-align: center;
   border: 2px solid #2c3929;
   border-radius: 15px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(45, 36, 32, 0.8);
   overflow: hidden;
   box-shadow: 5px 5px 2.5px #392e29;
 }
@@ -431,6 +436,39 @@ nav {
   background-size: cover;
   height: 65%;
   position: relative;
+}
+
+.contact-sect-box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(45, 36, 32, 0.8);
+  margin: 0 15px;
+  padding: 15px 15px;
+  border: 2px solid #2c3929;
+  border-radius: 15px;
+  box-shadow: 5px 5px 2.5px #392e29;
+}
+.contact-sect-box .inpt-label {
+  display: flex;
+  flex-direction: row;
+}
+.contact-sect-box .inpt-label .inpt {
+  display: flex;
+  background-color: #2d2420;
+  border: 3px inset #392e29;
+  border-radius: 7px;
+  width: 100%;
+  margin: 4px;
+}
+.contact-sect-box .inpt-label .inpt-msg {
+  height: 150px;
+  max-height: 150px;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=aplication.css.map */

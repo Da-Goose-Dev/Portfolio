@@ -1,0 +1,26 @@
+.contact-sect-box {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(#2d2420, 0.8);
+  margin: 0 15px;
+  padding: 15px 15px;
+  border: 2px solid #2c3929;
+  border-radius: 15px;
+  box-shadow: 5px 5px 2.5px #392e29;
+  .inpt-label {
+    display: flex;
+    flex-direction: row;
+    .inpt {
+      display: flex;
+      background-color: #2d2420;
+      border: 3px inset #392e29;
+      border-radius: 7px;
+      width: 100%;
+      margin: 4px;
+      &-msg {
+        height: 150px;
+        max-height: 150px;
+      }
+    }
+  }
+}

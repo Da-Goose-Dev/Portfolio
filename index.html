@@ -100,10 +100,8 @@
             <div class="project-card-box">
                 <!--Project cards with title and view more link -->
                 <!--TODO - As you work through the course, you will upload your projects and update the project cards - for now, please use a professional placeholder image-->
-                <!--TODO - add place holder images -->
                 <div class="project-card">
                     <div class="img-box project-img">
-                        <!-- <img src="#" alt="image of project" class="project-img"> -->
                     </div>
                     <h4 class="project-name">Project 1</h4>
                     <p class="project-link">
@@ -116,7 +114,6 @@
 
                 <div class="project-card">
                     <div class="img-box project-img">
-                        <!-- <img src="#" alt="image of project" class="project-img"> -->
                     </div>
                     <h4 class="project-name">Project 2</h4>
                     <p class="project-link">
@@ -129,7 +126,6 @@
 
                 <div class="project-card">
                     <div class="img-box project-img">
-                        <!-- <img src="#" alt="image of project" class="project-img"> -->
                     </div>
                     <h4 class="project-name">Project 3</h4>
                     <p class="project-link">
@@ -142,7 +138,6 @@
 
                 <div class="project-card">
                     <div class="img-box project-img">
-                        <!-- <img src="#" alt="image of project" class="project-img"> -->
                     </div>
                     <h4 class="project-name">Project 4</h4>
                     <p class="project-link">
@@ -155,7 +150,6 @@
 
                 <div class="project-card">
                     <div class="img-box project-img">
-                        <!-- <img src="#" alt="image of project" class="project-img"> -->
                     </div>
                     <h4 class="project-name">Project 5</h4>
                     <p class="project-link">
@@ -168,7 +162,6 @@
 
                 <div class="project-card">
                     <div class="img-box project-img">
-                        <!-- <img src="#" alt="image of project" class="project-img"> -->
                     </div>
                     <h4 class="project-name">Project 6</h4>
                     <p class="project-link">
@@ -188,9 +181,7 @@
 
                     <!--TODO - check to see what others have put here-->
                     <p>
-                        Ethical poutine 8-bit, banh mi mlkshk bushwick locavore anim venmo pariatur chillwave hashtag
-                        DIY freegan. Austin lomo
-                        tumeric jean shorts.
+                        Kindly reach out to me using any of the contact methods listed below.
                     </p>
 
                     <address class="phn-number">
@@ -203,11 +194,14 @@
                     </address>
 
                     <!--TODO - check to see what others have put here-->
+                    <p>If you would like to discuss my previous work, a potential project of your own, or any
+                        work-related offers, the best time to call is between 9:00 AM and 9:00 PM (GMT), Monday to
+                        Friday.
+                    </p>
                     <p>
-                        Ethical poutine 8-bit, banh mi mlkshk bushwick locavore anim venmo pariatur chillwave hashtag
-                        DIY freegan. Austin lomo
-                        tumeric jean shorts. banh mi mlkshk bushwick locavore anim venmo pariatur chillwave hashtag
-                        DIY freegan.
+                        Alternatively, you may send me an email, and I will respond as soon as possible. You can also
+                        fill out the form below
+                        (currently not working).
                     </p>
 
                 </div><!--get in touch end div-->
@@ -215,30 +209,35 @@
                 <div class="contact-frm-box">
                     <form action="#" method="post" name="contact-form" id="contact-form">
 
-                        <label for="user-forename" class="inpt inpt-fname">
-                            <input id="user-forename" type="text" required placeholder="First Name*">
+                        <label for="user-forename" class="inpt-label inpt-fname-label">
+                            <input id="user-forename" type="text" class="inpt inpt-fname" required
+                                placeholder="First Name*">
                         </label>
 
-                        <label for="user-surname" class="inpt inpt-sname">
-                            <input id="user-surname" type="text" required placeholder="Last Name*">
+                        <label for="user-surname" class="inpt-label inpt-sname-label">
+                            <input id="user-surname" type="text" class="inpt inpt-sname" required
+                                placeholder="Last Name*">
                         </label>
 
-                        <label for="user-email" class="inpt inpt-email">
-                            <input id="user-email" type="email" required placeholder="Email Address*">
+                        <label for="user-email" class="inpt-label inpt-email-label">
+                            <input id="user-email" type="email" class="inpt inpt-email" required
+                                placeholder="Email Address*">
                         </label>
 
-                        <label for="subject" class="inpt inpt-subject">
-                            <input id="subject" name="subject" type="text" placeholder="Subject...">
+                        <label for="subject" class="inpt-label inpt-subject-label">
+                            <input id="subject" name="subject" class="inpt inpt-subject" type="text"
+                                placeholder="Subject...">
                         </label>
 
-                        <label for="message" class="inpt inpt-msg">
-                            <textarea id="message" name="message" placeholder="Message"></textarea>
+                        <label for="message" class="inpt-label inpt-msg-label">
+                            <textarea id="message" name="message" class="inpt inpt-msg"
+                                placeholder="Message"></textarea>
                         </label>
 
                     </form>
 
                     <!--Submit button - didn't include inside form for easier styling -->
-                    <button type="submit" id="submit" name="submit" form="contact-form">Submit</button>
+                    <button type="submit" id="submit" class="btn" name="submit" form="contact-form">Submit</button>
 
                 </div><!--contact form box end div-->
 
@@ -246,7 +245,7 @@
 
             <footer><!--Contains back to top button might add something else later-->
 
-                <div class="to-top-btn">
+                <div class="btn to-top-btn">
                     <p>
                         <a href="#top">
                             <span class="icn-dbl-arrow-up"></span>

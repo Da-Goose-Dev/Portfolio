@@ -1,5 +1,8 @@
+.btn-box {
+  display: grid;
+  width: 75px;
+  margin: auto;
+}
 .btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }

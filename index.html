@@ -209,15 +209,17 @@
                 <div class="contact-frm-box">
                     <form action="#" method="post" name="contact-form" id="contact-form">
 
-                        <label for="user-forename" class="inpt-label inpt-fname-label">
-                            <input id="user-forename" type="text" class="inpt inpt-fname" required
-                                placeholder="First Name*">
-                        </label>
+                        <div class="user-name">
+                            <label for="user-forename" class="inpt-label inpt-fname-label">
+                                <input id="user-forename" type="text" class="inpt inpt-fname" required
+                                    placeholder="First Name*">
+                            </label>
 
-                        <label for="user-surname" class="inpt-label inpt-sname-label">
-                            <input id="user-surname" type="text" class="inpt inpt-sname" required
-                                placeholder="Last Name*">
-                        </label>
+                            <label for="user-surname" class="inpt-label inpt-sname-label">
+                                <input id="user-surname" type="text" class="inpt inpt-sname" required
+                                    placeholder="Last Name*">
+                            </label>
+                        </div>
 
                         <label for="user-email" class="inpt-label inpt-email-label">
                             <input id="user-email" type="email" class="inpt inpt-email" required
@@ -237,7 +239,9 @@
                     </form>
 
                     <!--Submit button - didn't include inside form for easier styling -->
-                    <button type="submit" id="submit" class="btn" name="submit" form="contact-form">Submit</button>
+                    <div class="btn-box">
+                        <button type="submit" id="submit" name="submit" form="contact-form">Submit</button>
+                    </div>
 
                 </div><!--contact form box end div-->
 

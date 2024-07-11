@@ -1,21 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 @font-face {
-  font-family: "icomoon";
-  src: url("../fonts/icomoon.eot?qtc87s");
-  src: url("../fonts/icomoon.eot?qtc87s#iefix") format("embedded-opentype"),
-    url("../fonts/icomoon.ttf?qtc87s") format("truetype"),
-    url("../fonts/icomoon.woff?qtc87s") format("woff"),
-    url("../fonts/icomoon.svg?qtc87s#icomoon") format("svg");
+  font-family: "icomoon-portfolio";
+  src: url("fonts/icomoon-portfolio.eot?9whl3m");
+  src: url("fonts/icomoon-portfolio.eot?9whl3m#iefix")
+      format("embedded-opentype"),
+    url("fonts/icomoon-portfolio.ttf?9whl3m") format("truetype"),
+    url("fonts/icomoon-portfolio.woff?9whl3m") format("woff"),
+    url("fonts/icomoon-portfolio.svg?9whl3m#icomoon-portfolio") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
 
-[class^="icon-"],
-[class*=" icon-"] {
+[class^="icn-"],
+[class*=" icn-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: "icomoon-portfolio" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;

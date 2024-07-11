@@ -1,13 +1,14 @@
 .contact-sect-box {
-  background-color: rgba(#2d2420, 0.8);
+  background-color: rgba(#4e4c4cd0, 0.8);
   margin: 0 15px;
   padding: 15px 15px;
   border: 2px solid #2c3929;
   border-radius: 15px;
-  box-shadow: 5px 5px 2.5px #392e29;
+  box-shadow: 5px 5px 2.5px #002609;
+  color: #e7f4d7;
   .inpt {
-    background-color: #2d2420;
-    border: 3px inset #392e29;
+    background-color: rgba(#d0d0d0d0, 0.8);
+    border: 3px inset #5d5c5c;
     border-radius: 7px;
     width: 100%;
     margin: 4px;
@@ -23,6 +24,7 @@
   grid-template-columns: 120px 120px;
   grid-template-rows: auto;
   grid-template: "inpt-fname inpt-sname";
+  gap: 2px;
 }
 // .contact-frm-box {
 //   form {
@@ -31,3 +33,13 @@
 //     }
 //   }
 // }
+address {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+  a {
+    margin-left: 5px;
+    color: #e7f4d7;
+  }
+}

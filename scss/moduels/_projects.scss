@@ -5,9 +5,9 @@
     text-align: center;
     border: 2px solid #2c3929;
     border-radius: 15px;
-    background-color: rgba(#2d2420, 0.8);
+    background-color: #2c3929;
     overflow: hidden;
-    box-shadow: 5px 5px 2.5px #392e29;
+    box-shadow: 5px 5px 2.5px #002609;
   }
 }
 .project-img {
@@ -17,4 +17,25 @@
   background-size: cover;
   height: 65%;
   position: relative;
+}
+.project-name {
+  text-transform: uppercase;
+  display: block;
+  text-align: start;
+  font-size: 32px;
+  margin: 5px 5px 5px 5px;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 24px;
+  margin: 5px 5px 5px 5px;
+  text-transform: uppercase;
+  a {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+  }
 }

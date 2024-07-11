@@ -4,13 +4,13 @@
 body,
 html {
   height: 100%;
-  background-color: #3c4935;
-  color: #adad85;
+  background-color: #223827;
+  color: #738d7a;
 }
 a {
   font-family: "Open sans", sans-serif;
   text-decoration: none;
-  color: #fff;
+  color: #67806d;
 }
 h1,
 h2,
@@ -20,4 +20,23 @@ h5,
 h6,
 p {
   font-family: "Rubik", "Open sans", sans-serif;
+}
+
+.push-down {
+  margin-bottom: 0;
+  padding-bottom: 2px;
+}
+.main-heading {
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+.sub-heading {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+.sect-heading {
+  font-size: 20px;
+  text-transform: uppercase;
 }

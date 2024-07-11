@@ -383,14 +383,14 @@ template {
 body,
 html {
   height: 100%;
-  background-color: #3c4935;
-  color: #adad85;
+  background-color: #223827;
+  color: #738d7a;
 }
 
 a {
   font-family: "Open sans", sans-serif;
   text-decoration: none;
-  color: #fff;
+  color: #67806d;
 }
 
 h1,
@@ -403,8 +403,30 @@ p {
   font-family: "Rubik", "Open sans", sans-serif;
 }
 
+.push-down {
+  margin-bottom: 0;
+  padding-bottom: 2px;
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin-top: 15px;
+  margin-bottom: 0;
+}
+
+.sub-heading {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.sect-heading {
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
 .off-screen-menu {
-  background-color: #2c3929;
+  background-color: #223827;
   height: 100vh;
   width: 100%;
   max-width: 450px;
@@ -436,7 +458,7 @@ nav {
   margin-right: 5px;
   padding: 1rem;
   display: flex;
-  background-color: #2c3929;
+  background-color: #223827;
   border-radius: 25px;
   z-index: 2;
 }
@@ -490,10 +512,21 @@ nav {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #adad85;
+  color: #738d7a;
   background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
   padding: 5px;
-  width: 250px;
+  width: 80%;
+  max-width: 350px;
+  font-size: 24px;
+}
+.hero-img .hero-txt .line {
+  margin: 10px auto;
+  width: 200px;
+  height: 5px;
+  background-color: #7a887e;
+  border-radius: 10px;
+  border: 2px solid #5c635e;
 }
 
 .project-card-box .project-card {
@@ -502,9 +535,9 @@ nav {
   text-align: center;
   border: 2px solid #2c3929;
   border-radius: 15px;
-  background-color: rgba(45, 36, 32, 0.8);
+  background-color: #2c3929;
   overflow: hidden;
-  box-shadow: 5px 5px 2.5px #392e29;
+  box-shadow: 5px 5px 2.5px #002609;
 }
 
 .project-img {
@@ -516,17 +549,40 @@ nav {
   position: relative;
 }
 
+.project-name {
+  text-transform: uppercase;
+  display: block;
+  text-align: start;
+  font-size: 32px;
+  margin: 5px 5px 5px 5px;
+}
+
+.project-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  font-size: 24px;
+  margin: 5px 5px 5px 5px;
+  text-transform: uppercase;
+}
+.project-link a {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
 .contact-sect-box {
-  background-color: rgba(45, 36, 32, 0.8);
+  background-color: rgba(78, 76, 76, 0.8);
   margin: 0 15px;
   padding: 15px 15px;
   border: 2px solid #2c3929;
   border-radius: 15px;
-  box-shadow: 5px 5px 2.5px #392e29;
+  box-shadow: 5px 5px 2.5px #002609;
+  color: #e7f4d7;
 }
 .contact-sect-box .inpt {
-  background-color: #2d2420;
-  border: 3px inset #392e29;
+  background-color: rgba(208, 208, 208, 0.8);
+  border: 3px inset #5d5c5c;
   border-radius: 7px;
   width: 100%;
   margin: 4px;
@@ -541,6 +597,18 @@ nav {
   grid-template-columns: 120px 120px;
   grid-template-rows: auto;
   grid-template: "inpt-fname inpt-sname";
+  gap: 2px;
+}
+
+address {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+}
+address a {
+  margin-left: 5px;
+  color: #e7f4d7;
 }
 
 .btn-box {

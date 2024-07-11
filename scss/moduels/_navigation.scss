@@ -17,6 +17,20 @@
   &.active {
     right: 0;
   }
+  .social-icns-box {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+  }
+  ul {
+    padding: 0;
+    li {
+      text-decoration: none;
+      list-style: none;
+      margin: 20px 0;
+    }
+  }
 }
 .initials {
   display: none;

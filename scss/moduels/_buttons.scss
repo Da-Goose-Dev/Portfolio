@@ -1,11 +1,22 @@
 .btn-box {
-  display: grid;
-  width: 75px;
-  margin: auto;
+  display: flex;
+  flex-direction: row;
+  margin: 5px 5px 5px 0;
+  justify-content: flex-end;
 }
 .btn {
   text-align: center;
   &:last-of-type {
     padding: 2px;
   }
+}
+#submit {
+  border-radius: 10px;
+  border-style: solid;
+  background-color: #223827;
+  font-size: 16px;
+  font-family: "Rubik", "Open sans", sans-serif;
+  color: #e7f4d7;
+  padding: 10px 15px;
+  box-shadow: 5px 5px 2.5px #002609;
 }

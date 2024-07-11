@@ -4,13 +4,13 @@
 body,
 html {
   height: 100%;
-  background-color: #223827;
-  color: #738d7a;
+  background-color: $prime-bg;
+  color: $prime-txt;
 }
 a {
-  font-family: "Open sans", sans-serif;
+  font-family: $o-sans;
   text-decoration: none;
-  color: #67806d;
+  color: $prime-link;
 }
 h1,
 h2,
@@ -19,7 +19,7 @@ h4,
 h5,
 h6,
 p {
-  font-family: "Rubik", "Open sans", sans-serif;
+  font-family: $rubik;
 }
 
 .push-down {

@@ -384,7 +384,7 @@ body,
 html {
   height: 100%;
   background-color: #223827;
-  color: #738d7a;
+  color: #e7f4d7;
 }
 
 a {
@@ -486,7 +486,7 @@ nav {
 .ham-menu span {
   height: 5px;
   width: 100%;
-  background-color: black;
+  background-color: #000;
   border-radius: 25px;
   position: absolute;
   top: 50%;
@@ -538,7 +538,7 @@ nav {
   margin: 10px auto;
   width: 200px;
   height: 5px;
-  background-color: #7a887e;
+  background-color: #738d7a;
   border-radius: 10px;
   border: 2px solid #5c635e;
 }
@@ -547,7 +547,7 @@ nav {
   height: 300px;
   margin: 25px 15px;
   text-align: center;
-  border: 2px solid #2c3929;
+  border: 2px solid #5c635e;
   border-radius: 15px;
   background-color: #2c3929;
   overflow: hidden;
@@ -586,20 +586,21 @@ nav {
 }
 
 .contact-sect-box {
-  background-color: rgba(78, 76, 76, 0.8);
+  background-color: rgba(44, 57, 41, 0.8);
   margin: 0 15px;
   padding: 15px 15px;
-  border: 2px solid #2c3929;
+  border: 2px solid #5c635e;
   border-radius: 15px;
   box-shadow: 5px 5px 2.5px #002609;
   color: #e7f4d7;
 }
 .contact-sect-box .inpt {
-  background-color: rgba(208, 208, 208, 0.8);
-  border: 3px inset #5d5c5c;
+  background-color: rgba(103, 128, 109, 0.8);
+  border: 3px inset #5c635e;
   border-radius: 7px;
   width: 100%;
   margin: 4px;
+  color: #e7f4d7;
 }
 .contact-sect-box .inpt-msg {
   height: 150px;
@@ -622,7 +623,7 @@ address {
 }
 address a {
   margin-left: 5px;
-  color: #e7f4d7;
+  color: #67806d;
 }
 
 .btn-box {

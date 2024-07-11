@@ -5,4 +5,7 @@
 }
 .btn {
   text-align: center;
+  &:last-of-type {
+    padding: 2px;
+  }
 }

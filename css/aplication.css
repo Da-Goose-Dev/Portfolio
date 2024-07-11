@@ -321,8 +321,19 @@ html {
 }
 
 a {
+  font-family: "Open sans", sans-serif;
   text-decoration: none;
   color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Rubik", "Open sans", sans-serif;
 }
 
 .off-screen-menu {
@@ -473,6 +484,9 @@ nav {
 
 .btn {
   text-align: center;
+}
+.btn:last-of-type {
+  padding: 2px;
 }
 
 /*# sourceMappingURL=aplication.css.map */

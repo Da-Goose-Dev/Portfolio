@@ -602,6 +602,10 @@ nav {
   margin: 4px;
   color: #e7f4d7;
 }
+.contact-sect-box .inpt::placeholder {
+  color: #e7f4d7;
+  opacity: 0.7;
+}
 .contact-sect-box .inpt-msg {
   height: 150px;
   max-height: 150px;

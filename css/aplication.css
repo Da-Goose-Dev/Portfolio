@@ -1,3 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@font-face {
+  font-family: "icomoon-portfolio";
+  src: url("../fonts/icomoon-portfolio.eot?9whl3m");
+  src: url("../fonts/icomoon-portfolio.eot?9whl3m#iefix") format("embedded-opentype"), url("../fonts/icomoon-portfolio.ttf?9whl3m") format("truetype"), url("../fonts/icomoon-portfolio.woff?9whl3m") format("woff"), url("../fonts/icomoon-portfolio.svg?9whl3m#icomoon-portfolio") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icn-],
+[class*=" icn-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: "icomoon-portfolio" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icn-email:before {
+  content: "\e904";
+}
+
+.icn-phone:before {
+  content: "\e905";
+}
+
+.icn-fb:before {
+  content: "\e900";
+  color: #1877f2;
+}
+
+.icn-insta:before {
+  content: "\e901";
+  color: #e4405f;
+}
+
+.icn-linkin:before {
+  content: "\e902";
+  color: #0077b5;
+}
+
+.icn-x:before {
+  content: "\e903";
+}
+
+.icn-arrow-down:before {
+  content: "\e908";
+}
+
+.icn-arrow-left:before {
+  content: "\e909";
+}
+
+.icn-arrow-right:before {
+  content: "\e90a";
+}
+
+.icn-arrow-up:before {
+  content: "\e90b";
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -5,7 +72,6 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 html {
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
@@ -308,72 +374,6 @@ template {
  */
 [hidden] {
   display: none;
-}
-
-@font-face {
-  font-family: "icomoon";
-  src: url("../fonts/icomoon.eot");
-  src: url("../fonts/icomoon.eot") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-[class^=icon-],
-[class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icn-email:before {
-  content: "\e904";
-}
-
-.icn-phone:before {
-  content: "\e905";
-}
-
-.icn-fb:before {
-  content: "\e900";
-  color: #1877f2;
-}
-
-.icn-insta:before {
-  content: "\e901";
-  color: #e4405f;
-}
-
-.icn-linkin:before {
-  content: "\e902";
-  color: #0077b5;
-}
-
-.icn-x:before {
-  content: "\e903";
-}
-
-.icn-arrow-down:before {
-  content: "\e908";
-}
-
-.icn-arrow-left:before {
-  content: "\e909";
-}
-
-.icn-arrow-right:before {
-  content: "\e90a";
-}
-
-.icn-arrow-up:before {
-  content: "\e90b";
 }
 
 * {

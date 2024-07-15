@@ -1,0 +1,38 @@
+//min-width ()
+
+$breakpoints: (
+  "bpoint-sml": 576px,
+  "bpoint-med": 768px,
+  "bpoint-lrg": 992px,
+  "bpoint-xlg": 1200px,
+);
+
+@mixin mq-sml {
+  @media (min-width: map-get($breakpoints, "bpoint-sml")) {
+    @content;
+  }
+}
+
+@mixin mq-med {
+  @media (min-width: map-get($breakpoints, "bpoint-med")) {
+    @content;
+  }
+}
+
+@mixin mq-lrg {
+  @media (min-width: map-get($breakpoints, "bpoint-lrg")) {
+    @content;
+  }
+}
+
+@mixin mq-xlg {
+  @media (min-width: map-get($breakpoints, "bpoint-xlg")) {
+    @content;
+  }
+}
+
+@mixin breakpoint($bp: 0) {
+  @media (min-width: $bp) {
+    @content;
+  }
+}

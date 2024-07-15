@@ -43,6 +43,13 @@
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
+    .icn {
+      &:hover {
+        transform: translate(0, -5px);
+        font-size: 2rem;
+        rotate: 20%;
+      }
+    }
   }
   ul {
     padding: 0;
@@ -51,6 +58,10 @@
       text-decoration: none;
       list-style: none;
       margin: 20px 0;
+      &:hover {
+        transform: translate(0, -5px);
+        font-size: 2rem;
+      }
     }
   }
 }

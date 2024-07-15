@@ -1,0 +1,20 @@
+.about-me {
+  display: flex;
+  width: 80%;
+  background-color: $sec-bg;
+  border: 2px solid $prime-brdr;
+  border-radius: 15px;
+  box-shadow: 5px 5px 2.5px $prime-shdw;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px 15px;
+  font-family: $rubik;
+  align-items: center;
+  flex-direction: column;
+  h3 {
+    font-size: 2rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
+}

@@ -15,7 +15,6 @@
         <div class="navigation">
             <div class="initials-box"><!--Initials in top left corner of mock-up-->
                 <p class="initials">
-                    <!--TODO - Add link back to home page-->
                     <a href="#">
                         Km
                     </a>
@@ -23,21 +22,14 @@
             </div>
             <div class="off-screen-menu off-screen-menu.active">
                 <ul>
-                    <!--TODO - Link up the menu items
-                            About Me to the About Me page
-                            My Portfolio to the Portfolio section on the homepage
-                            Coding Examples to the Coding Examples page
-                            SCS Scheme to the SCS Scheme page
-                            Contact Me to the Contact Form on the homepage-->
-                    <li><a href="#">About Me</a></li>
-                    <li><a href="#">My Portfolio</a></li>
-                    <li><a href="#">Code Examples</a></li>
-                    <li><a href="#">SCS Scheme</a></li>
+                    <li><a href="internal-pg/about-me.html">About Me</a></li>
+                    <li><a href="#portfolio">My Portfolio</a></li>
+                    <li><a href="internal-pg/code-ex.html">Code Examples</a></li>
+                    <li><a href="internal-pg/scs-scheme.html">SCS Scheme</a></li>
                 </ul>
                 <div class="btn-contact">
                     <!--Contact me button - Made separate from the nav so that i can style it a little easier later - added a mail to link to open a new email, fill the subject line with "Hi There!"" and the body with "I'm contacting you regarding"-->
-                    <a href="mailto:kurtis.march@netmatters-scs.com?subject=Hi%20There!&body=Hello,%0D%0AI'm%20contacting%20you%20regarding"
-                        target="_blank">Contact Me</a>
+                    <a href="#contact-sect">Contact Me</a>
                 </div>
                 <div class="social-icns-box">
                     <!--Social Icons sections - improve socials before linking to look more professional-->
@@ -45,25 +37,25 @@
                     <!--TODO - Update the social media to be relevant to you, As this is a professional portfolio, if you social media contains content that could deter an employer employing you, do not link to it.-->
                     <div class="icn-box">
                         <a href="#">
-                            <span class="icn-fb"></span>
+                            <span class="icn icn-fb"></span>
                         </a>
                     </div>
 
                     <div class="icn-box">
                         <a href="#">
-                            <span class="icn-insta"></span>
+                            <span class="icn icn-insta"></span>
                         </a>
                     </div>
 
                     <div class="icn-box">
                         <a href="#">
-                            <span class="icn-x"></span>
+                            <span class="icn icn-x"></span>
                         </a>
                     </div>
 
                     <div class="icn-box">
                         <a href="#">
-                            <span class="icn-linkin"></span>
+                            <span class="icn icn-linkin"></span>
                         </a>
                     </div>
                 </div><!--social icons end div-->
@@ -92,15 +84,17 @@
                     <div class="line"></div>
                     <h2 class="sub-heading">Web Developer</h2>
                     <p class="push-down">
-                        <span class="icn-arrow-down"></span>
-                        Scroll Down
-                        <span class="icn-arrow-down"></span>
+                        <a href="#portfolio">
+                            <span class="icn-arrow-down"></span>
+                            Scroll Down
+                            <span class="icn-arrow-down"></span>
+                        </a>
                     </p>
                 </div>
 
             </div><!--hero image end div-->
 
-            <div class="project-card-box">
+            <div id="portfolio" class="project-card-box">
                 <!--Project cards with title and view more link -->
                 <!--TODO - As you work through the course, you will upload your projects and update the project cards - for now, please use a professional placeholder image-->
                 <div class="project-card">
@@ -177,7 +171,8 @@
 
             </div><!--Project card box end div-->
 
-            <div class="contact-sect-box"><!--contact section - including get in touch info and  contact form-->
+            <div class="contact-sect-box" id="contact-sect">
+                <!--contact section - including get in touch info and  contact form-->
 
                 <div class="get-in-touch">
                     <h3 class="sect-heading">Get In Touch</h3>

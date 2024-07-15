@@ -405,7 +405,7 @@ p {
 
 @media (min-width: 992px) {
   main {
-    margin-left: 200px;
+    margin-left: 250px;
   }
 }
 
@@ -464,7 +464,7 @@ p {
 }
 @media (min-width: 992px) {
   .off-screen-menu {
-    width: 200px;
+    width: 250px;
     left: 0;
     top: 0;
     z-index: 10;
@@ -486,6 +486,7 @@ p {
 }
 .off-screen-menu ul {
   padding: 0;
+  padding-top: 50px;
 }
 .off-screen-menu ul li {
   text-decoration: none;
@@ -501,11 +502,11 @@ p {
     position: fixed;
     display: flex;
     z-index: 11;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     justify-content: center;
     align-items: center;
-    font-size: 75px;
+    font-size: 100px;
     text-transform: uppercase;
   }
 }

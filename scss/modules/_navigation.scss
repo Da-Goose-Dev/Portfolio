@@ -26,7 +26,7 @@
     border-right: solid 3px $prime-brdr;
   }
   @include mq-lrg {
-    width: 200px;
+    width: 250px;
     left: 0;
     top: 0;
     z-index: 10;
@@ -46,6 +46,7 @@
   }
   ul {
     padding: 0;
+    padding-top: 50px;
     li {
       text-decoration: none;
       list-style: none;
@@ -59,13 +60,12 @@
     position: fixed;
     display: flex;
     z-index: 11;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     justify-content: center;
     align-items: center;
-    font-size: 75px;
+    font-size: 100px;
     text-transform: uppercase;
-
   }
   .initials {
     @include mq-lrg {

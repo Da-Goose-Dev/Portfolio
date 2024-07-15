@@ -21,6 +21,11 @@ h6,
 p {
   font-family: $rubik;
 }
+main {
+  @include mq-lrg {
+    margin-left: 200px;
+  }
+}
 
 .push-down {
   margin-bottom: 0;

@@ -1,0 +1,17 @@
+#contact-form input:focus {
+  outline: 0;
+}
+
+#contact-form {
+  &.success {
+    border-color: #09c372;
+  }
+  &.error {
+    border-color: #ff3860;
+  }
+  &.error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+  }
+}

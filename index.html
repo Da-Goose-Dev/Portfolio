@@ -212,29 +212,34 @@
 
                         <div class="user-name">
                             <label for="user-forename" class="inpt-label inpt-fname-label">
-                                <input id="user-forename" type="text" class="inpt inpt-fname" required
+                                <input id="user-forename" type="text" class="inpt inpt-fname" 
                                     placeholder="First Name*">
+                                    <div class="error"></div>
                             </label>
 
                             <label for="user-surname" class="inpt-label inpt-sname-label">
-                                <input id="user-surname" type="text" class="inpt inpt-sname" required
+                                <input id="user-surname" type="text" class="inpt inpt-sname" 
                                     placeholder="Last Name*">
+                                    <div class="error"></div>
                             </label>
                         </div>
 
                         <label for="user-email" class="inpt-label inpt-email-label">
-                            <input id="user-email" type="email" class="inpt inpt-email" required
+                            <input id="user-email" type="text" class="inpt inpt-email" 
                                 placeholder="Email Address*">
+                                <div class="error"></div>
                         </label>
 
                         <label for="subject" class="inpt-label inpt-subject-label">
                             <input id="subject" name="subject" class="inpt inpt-subject" type="text"
                                 placeholder="Subject...">
+                                <div class="error"></div>
                         </label>
 
                         <label for="message" class="inpt-label inpt-msg-label">
                             <textarea id="message" name="message" class="inpt inpt-msg"
-                                placeholder="Message"></textarea>
+                                placeholder="Message*"></textarea>
+                                <div class="error"></div>
                         </label>
 
                     </form>
@@ -242,6 +247,7 @@
                     <!--Submit button - didn't include inside form for easier styling -->
                     <div class="btn-box">
                         <button type="submit" id="submit" name="submit" form="contact-form">Submit</button>
+                        <div class="disabled"></div>
                     </div>
 
                 </div><!--contact form box end div-->
@@ -269,6 +275,7 @@
 </body>
 <script src="js/burger-menu.js"></script>
 <script src="js/type-effect.js"></script>
+<script src="js/form.js"></script>
 
 </html>
 
